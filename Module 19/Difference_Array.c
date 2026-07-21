@@ -27,9 +27,9 @@ int main()
             {
                 if (b[i] > b[j])
                 {
-                    int tem = b[i];
+                    int temp = b[i];
                     b[i] = b[j];
-                    b[j] = tem;
+                    b[j] = temp;
                 }
             }
         }
